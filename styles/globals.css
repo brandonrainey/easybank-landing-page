@@ -1,9 +1,20 @@
+:root {
+  --dark-blue: hsl(233, 26%, 24%);
+  --lime-green: hsl(136, 65%, 51%);
+  --bright-cyan: hsl(192, 70%, 51%);
+  --grayish-blue: hsl(233, 8%, 62%);
+  --light-grayish-blue: hsl(220, 16%, 96%);
+  --very-light-gray: hsl(0, 0%, 98%);
+  --white: hsl(0, 0%, 100%);
+}
+
 html,
 body {
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    width: 100%;
 }
 
 a {
@@ -13,4 +24,48 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+.header {
+  display: flex;
+  height: 100px;
+  width: 100%;
+  background-color: var(--light-grayish-blue);
+  align-items: center;
+  z-index: 10;
+}
+
+.hamburgerIcon {
+  margin-left: auto;
+  align-self: center;
+  margin-right: 30px;
+}
+
+.icon {
+  
+}
+
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.introbg {
+  position: relative;
+  
+}
+
+.introMockup {
+  position: absolute;
+  top: 0;
+	bottom:0;
+	left: 0;
+	right:0;
+  z-index: 1;
+  
+}
+
+.introInfo {
+  display: flex;
+  flex-direction: column;
 }
