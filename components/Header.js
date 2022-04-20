@@ -7,8 +7,8 @@ export default function Header() {
     <div className='header'>
         <img 
           src='/logo.svg'
-          width={`208.5`}
-          height={`30`}
+          width={`173.75`}
+          height={`25`}
           className='logo'
         />
         <img

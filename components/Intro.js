@@ -6,28 +6,28 @@ export default function Intro() {
         <div>
            <img 
             src='/bg-intro-mobile.svg'
-            width={375}
+            width={`100%`}
             height={423}
             className='introbg'
             /> 
             <img 
                 src='/image-mockups.png'
-                width={375}
+                width={`100%`}
                 height={423}
                 className='introMockup'
             />
 
         </div>
         <div className='introInfo'>
-            <h1>
+            <h2>
                 Next generation digital banking
-            </h1>
+            </h2>
             <p>
                 Take your financial life online. Your Easybank account will be a one-stop-shop
                 for spending, saving, budgeting, investing, and much more.
             </p>
             <button>
-                Resquest Invite
+                Request Invite
             </button>
         </div>
         

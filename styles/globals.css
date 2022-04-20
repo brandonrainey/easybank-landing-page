@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans&display=swap');
+
 :root {
   --dark-blue: hsl(233, 26%, 24%);
   --lime-green: hsl(136, 65%, 51%);
@@ -12,8 +14,7 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: 'Public Sans', sans-serif;
     width: 100%;
 }
 
@@ -28,11 +29,15 @@ a {
 
 .header {
   display: flex;
-  height: 100px;
+  height: 80px;
   width: 100%;
   background-color: var(--light-grayish-blue);
   align-items: center;
   z-index: 10;
+}
+
+.logo {
+  margin-left: 15px;
 }
 
 .hamburgerIcon {
@@ -41,9 +46,6 @@ a {
   margin-right: 30px;
 }
 
-.icon {
-  
-}
 
 .mainContainer {
   display: flex;
@@ -69,3 +71,147 @@ a {
   display: flex;
   flex-direction: column;
 }
+
+.introInfo > h2, p {
+  text-align: center;
+}
+
+.introInfo > h2 {
+  color: var(--dark-blue);
+  letter-spacing: 0.1rem;
+  font-weight: 500;
+  font-size: 2.4rem;
+}
+
+.introInfo > p {
+  color: var(--grayish-blue);
+  line-height: 1.5rem;
+  
+}
+
+.introInfo > button {
+  background: linear-gradient(90deg, rgba(49,211,92,1) 0%, rgba(43,183,218,1) 100%);
+  border: none;
+  width: 150px;
+  height: 40px;
+  border-radius: 25px;
+  color: white;
+  align-self: center;
+  margin-top: 10px;
+  margin-bottom: 80px;
+}
+
+.mainWrapper {
+  background: var(--very-light-gray);
+}
+
+.mainInfo > h2 {
+  color: var(--dark-blue);
+  letter-spacing: 0.1rem;
+  font-weight: 500;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.mainWrapper  p {
+  color: var(--grayish-blue);
+  line-height: 1.5rem;
+  text-align: center;
+  margin-bottom: 20px;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.mainCell {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h3 {
+  font-weight: 400;
+}
+
+.articleWrapper {
+  padding-left: 25px;
+  padding-right: 25px;
+  margin-bottom: 20px;
+}
+
+.articleWrapper p {
+  text-align: left;
+  color: var(--grayish-blue);
+}
+
+.articleInfo {
+  padding: 30px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+  
+}
+
+.articleImage {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.articleAuthor {
+  font-size: 0.8rem;
+}
+
+.articleContainer h2 {
+  color: var(--dark-blue);
+  letter-spacing: 0.1rem;
+  font-weight: 500;
+  font-size: 2rem;
+  text-align: center;
+  margin-top: 70px;
+}
+
+.footerContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: var(--dark-blue);
+}
+
+.footerIcon {
+  margin-top: 40px;
+  color: white;
+}
+
+.iconWrapper {
+  display: flex;
+  gap: 20px;
+  margin-top: 40px;
+}
+
+.linkWrapper {
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+  color: white;
+  text-align: center;
+  gap: 15px;
+}
+
+.footerContainer button {
+  color: white;
+  background: linear-gradient(90deg, rgba(49,211,92,1) 0%, rgba(43,183,218,1) 100%);
+  margin-top: 40px;
+  height: 50px;
+  width: 175px;
+  border: none;
+  border-radius: 25px;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.footerContainer p {
+  color: var(--grayish-blue);
+  margin-top: 30px;
+}
+
+
+
