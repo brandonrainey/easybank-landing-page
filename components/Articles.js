@@ -21,7 +21,7 @@ export default function Articles() {
                     Recveive money in any currency with no fees
                 </h3>
                 <p>
-                    The world is getting smaller and we're becoming more mobile.
+                    The world is getting smaller and were becoming more mobile.
                     So why should you be forced to only receive money in a single ...
                 </p>
             </div>
@@ -61,8 +61,8 @@ export default function Articles() {
                     Take your Easybank card wherever you go
                 </h3>
                 <p>
-                    We want you to enjoy your travels. This is why we don't charge any fees
-                    on purchases while you're abroad. We'll even show you ...
+                    We want you to enjoy your travels. This is why we dont charge any fees
+                    on purchases while youre abroad. Well even show you ...
                 </p>
             </div>
 
@@ -83,8 +83,8 @@ export default function Articles() {
                     Our invite-only Beta accounts are now live!
                 </h3>
                 <p>
-                    After a lot of hard work by the whole team, we're excited to launch our 
-                    closed beta. It's easy to request an invite through the site ...
+                    After a lot of hard work by the whole team, were excited to launch our 
+                    closed beta. Its easy to request an invite through the site ...
                 </p>
             </div>
         </div>

@@ -34,7 +34,7 @@ export default function Main() {
                 Simple Budgeting
             </h3>
             <p>
-                See exactly where your money goes each month. Receive notifications when you'react
+                See exactly where your money goes each month. Receive notifications when youreact
                 close to hitting your limits.
             </p>
         </div>
@@ -45,7 +45,7 @@ export default function Main() {
                 Fast Onboarding
             </h3>
             <p>
-                We don't do branches. Open your account in minutes online and start taking control
+                We dont do branches. Open your account in minutes online and start taking control
                 of your finances right away.
             </p>
         </div>
