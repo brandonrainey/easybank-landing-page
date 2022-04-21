@@ -1,11 +1,15 @@
 import React, { useState } from 'react'
 import Image from 'next/image'
 import MobileNav from './MobileNav'
+import DesktopNav from './DesktopNav'
 
 
-export default function Header() {
+
+export default function Header({ isDesktop }) {
 
 const [open, setOpen] = useState(false)
+
+
 
   return (
     <div className='header'>
@@ -15,14 +19,15 @@ const [open, setOpen] = useState(false)
           height={`25`}
           className='logo'
         />
-        <img
-          src='/icon-hamburger.svg'
-          height={`15`}
-          width={`32.7`}
+        {isDesktop ? <DesktopNav /> : (<img
+          src={`${open ? '/icon-close.svg' : '/icon-hamburger.svg'}`}
+          height={`${open ? '27' : '15'}`}
+          width={`${open ? '25' : '32.7'}`}
           className='hamburgerIcon'
           onClick={() => setOpen(!open)}
-        />
-
+        />)}
+        
+        
         {open ? <MobileNav /> : null}
     </div>
   )

@@ -1,21 +1,28 @@
 import React from 'react'
 
-export default function Intro() {
+
+export default function Intro({ isDesktop }) {
+
+    
+
   return (
-    <div>
-        <div>
+    <div className='introContainer'>
+        <div className='introWrapper'>
            <img 
-            src='/bg-intro-mobile.svg'
+            src={`${isDesktop ? '/bg-intro-desktop.svg' : '/bg-intro-mobile.svg'}`}
             width={`100%`}
             height={423}
             className='introbg'
             /> 
-            <img 
+            <div className='mockupWrapper'>
+                <img 
                 src='/image-mockups.png'
-                width={`100%`}
+                width={`${isDesktop ? '' : '100%'}`}
                 height={423}
                 className='introMockup'
-            />
+            /> 
+            </div>
+           
 
         </div>
         <div className='introInfo'>
