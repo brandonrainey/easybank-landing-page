@@ -1,8 +1,12 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Image from 'next/image'
+import MobileNav from './MobileNav'
 
 
 export default function Header() {
+
+const [open, setOpen] = useState(false)
+
   return (
     <div className='header'>
         <img 
@@ -16,8 +20,10 @@ export default function Header() {
           height={`15`}
           width={`32.7`}
           className='hamburgerIcon'
+          onClick={() => setOpen(!open)}
         />
 
+        {open ? <MobileNav /> : null}
     </div>
   )
 }
