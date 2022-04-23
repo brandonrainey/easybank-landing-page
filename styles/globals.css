@@ -37,6 +37,10 @@ a {
   z-index: 10;
 }
 
+button:active {
+  background: linear-gradient(90deg, rgb(131, 219, 154) 0%, rgb(121, 197, 216) 100%);
+}
+
 .logo {
   margin-left: 15px;
 }
@@ -264,9 +268,7 @@ h3 {
   color: var(--dark-blue);
 }
 
-button:active {
-  background: linear-gradient(90deg, rgb(131, 219, 154) 0%, rgb(121, 197, 216) 100%);
-}
+
 
 .desktopNavContainer {
   display: flex;
@@ -439,8 +441,12 @@ button:active {
     padding-top: 30px;
   }
 
-  .desktopNavContainer a:hover{
+  .navHome, .navAbout, .navContact, .navBlog, .navCareers{
     border-bottom: 3px solid var(--lime-green);
+  }
+
+  button:active {
+    background: linear-gradient(90deg, rgb(131, 219, 154) 0%, rgb(121, 197, 216) 100%);
   }
 }
 
