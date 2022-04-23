@@ -13,7 +13,8 @@ export default function Main() {
             </p>
         </div>
 
-        <div className='mainCell'>
+        <div className='cellWrapper'>
+            <div className='mainCell'>
             <img 
                 src='/icon-online.svg'
                 width={72}
@@ -26,40 +27,42 @@ export default function Main() {
                 Our modern web and mobile applications allow you to keep track of your finances
                 wherever you are in the world.
             </p>
-        </div>
+            </div>
 
-        <div className='mainCell'>
-            <img src='icon-budgeting.svg'/>
-            <h3>
-                Simple Budgeting
-            </h3>
-            <p>
-                See exactly where your money goes each month. Receive notifications when youreact
-                close to hitting your limits.
-            </p>
-        </div>
+            <div className='mainCell'>
+                <img src='icon-budgeting.svg'/>
+                <h3>
+                    Simple Budgeting
+                </h3>
+                <p>
+                    See exactly where your money goes each month. Receive notifications when youreact
+                    close to hitting your limits.
+                </p>
+            </div>
 
-        <div className='mainCell'>
-            <img src='icon-onboarding.svg'/>
-            <h3>
-                Fast Onboarding
-            </h3>
-            <p>
-                We dont do branches. Open your account in minutes online and start taking control
-                of your finances right away.
-            </p>
-        </div>
+            <div className='mainCell'>
+                <img src='icon-onboarding.svg'/>
+                <h3>
+                    Fast Onboarding
+                </h3>
+                <p>
+                    We dont do branches. Open your account in minutes online and start taking control
+                    of your finances right away.
+                </p>
+            </div>
 
-        <div className='mainCell'>
-            <img src='icon-api.svg'/>
-            <h3>
-                Open API
-            </h3>
-            <p>
-                Manage your savings, investments, pension, and much more from one account. Tracking
-                your money has never been easier.
-            </p>
+            <div className='mainCell'>
+                <img src='icon-api.svg'/>
+                <h3>
+                    Open API
+                </h3>
+                <p>
+                    Manage your savings, investments, pension, and much more from one account. Tracking
+                    your money has never been easier.
+                </p>
+            </div>
         </div>
+        
     </div>
   )
 }

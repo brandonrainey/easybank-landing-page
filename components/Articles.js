@@ -7,7 +7,9 @@ export default function Articles() {
             Latest Articles
         </h2>
 
-        <div className='articleWrapper'>
+
+        <div className='articles'>
+            <div className='articleWrapper'>
             <img 
                 src='/image-currency.jpg'
                 width={`100%`}
@@ -88,6 +90,8 @@ export default function Articles() {
                 </p>
             </div>
         </div>
+        </div>
+        
     </div>
   )
 }

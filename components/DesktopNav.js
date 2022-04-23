@@ -1,9 +1,12 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 export default function DesktopNav() {
+
+  const [isActive, setIsActive] = useState(false)
+
   return (
     <div className='desktopNavContainer'>
-        <nav>
+        <nav className='desktopNav'>
             <a>Home</a>
             <a>About</a>
             <a>Contact</a>

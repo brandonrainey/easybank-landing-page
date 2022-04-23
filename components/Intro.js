@@ -11,14 +11,14 @@ export default function Intro({ isDesktop }) {
            <img 
             src={`${isDesktop ? '/bg-intro-desktop.svg' : '/bg-intro-mobile.svg'}`}
             width={`100%`}
-            height={423}
+            height={`${isDesktop ? '100%' : '423'}`}
             className='introbg'
             /> 
             <div className='mockupWrapper'>
                 <img 
                 src='/image-mockups.png'
                 width={`${isDesktop ? '' : '100%'}`}
-                height={423}
+                height={`${isDesktop ? '100%' : '423'}`}
                 className='introMockup'
             /> 
             </div>
