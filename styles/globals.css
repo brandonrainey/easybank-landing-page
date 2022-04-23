@@ -311,8 +311,9 @@ h3 {
 
   .introContainer {
     flex-direction: row-reverse;
-    align-items: flex-end;
+    
     overflow: hidden;
+    
   }
 
   /* .mockupWrapper {
@@ -324,6 +325,7 @@ h3 {
   .introWrapper {
     position: relative;
     height: 800px;
+    
   }
 
   .introMockup {
@@ -336,7 +338,7 @@ h3 {
     width: 38%;
     align-self: center;
     margin-left: 100px;
-    justify-self: flex-start;
+    margin-right: auto;
   }
 
   .introInfo h2, p {
@@ -371,6 +373,8 @@ h3 {
   .mainWrapper p {
     text-align: left;
     padding: 0;
+    
+    
   }
 
   .mainCell {
