@@ -30,30 +30,35 @@ export default function DesktopNav() {
         <a
           onClick={handleClick}
           className={`${navItem == 'Home' ? 'navHome' : ''}`}
+          href=''
         >
           Home
         </a>
         <a
           onClick={handleClick}
           className={`${navItem == 'About' ? 'navAbout' : ''}`}
+          href=''
         >
           About
         </a>
         <a
           onClick={handleClick}
           className={`${navItem == 'Contact' ? 'navContact' : ''}`}
+          href=''
         >
           Contact
         </a>
         <a
           onClick={handleClick}
           className={`${navItem == 'Blog' ? 'navBlog' : ''}`}
+          href=''
         >
           Blog
         </a>
         <a
           onClick={handleClick}
           className={`${navItem == 'Careers' ? 'navCareers' : ''}`}
+          href=''
         >
           Careers
         </a>

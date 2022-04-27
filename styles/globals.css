@@ -132,6 +132,7 @@ button:active {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  height: 100%;
 }
 
 h3 {
@@ -453,6 +454,12 @@ h3 {
   button:active {
     background: linear-gradient(90deg, rgb(131, 219, 154) 0%, rgb(121, 197, 216) 100%);
   }
+
+  a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+    
+}
 }
 
 

@@ -11,6 +11,7 @@ export default function Intro({ isDesktop }) {
           width={`100%`}
           height={`${isDesktop ? '100%' : '423'}`}
           className="introbg"
+          alt='background design image'
         />
         <div className="mockupWrapper">
           <img
@@ -18,6 +19,7 @@ export default function Intro({ isDesktop }) {
             width={`${isDesktop ? '' : '100%'}`}
             height={`${isDesktop ? '100%' : '423'}`}
             className="introMockup"
+            alt='phone mockups image'
           />
         </div>
       </div>

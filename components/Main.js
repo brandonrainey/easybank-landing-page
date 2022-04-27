@@ -27,7 +27,8 @@ export default function Main() {
         </div>
 
         <div className="mainCell">
-          <img src="icon-budgeting.svg" alt="budgeting icon" />
+          <img src="icon-budgeting.svg" alt="budgeting icon" width={72}
+            height={72}/>
           <h3>Simple Budgeting</h3>
           <p>
             See exactly where your money goes each month. Receive notifications
@@ -36,7 +37,8 @@ export default function Main() {
         </div>
 
         <div className="mainCell">
-          <img src="icon-onboarding.svg" alt="onboarding icon" />
+          <img src="icon-onboarding.svg" alt="onboarding icon" width={72}
+            height={72}/>
           <h3>Fast Onboarding</h3>
           <p>
             We dont do branches. Open your account in minutes online and start
@@ -45,7 +47,8 @@ export default function Main() {
         </div>
 
         <div className="mainCell">
-          <img src="icon-api.svg" alt="api icon" />
+          <img src="icon-api.svg" alt="api icon" width={72}
+            height={72}/>
           <h3>Open API</h3>
           <p>
             Manage your savings, investments, pension, and much more from one
