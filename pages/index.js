@@ -1,4 +1,3 @@
-
 import Head from 'next/head'
 import Image from 'next/image'
 import Articles from '../components/Articles'
@@ -8,28 +7,20 @@ import Intro from '../components/Intro'
 import Main from '../components/Main'
 import useMediaQuery from '../hooks/useMediaQuery'
 
-
 export default function Home() {
-
   const isDesktop = useMediaQuery('(min-width: 480px)')
 
   return (
-    <div className='mainContainer'>
-      <Header 
-        isDesktop={isDesktop}
-      />
-      <Intro 
-        isDesktop={isDesktop}
-      />
-      <Main 
-        isDesktop={isDesktop}
-      />
-      <Articles 
-        isDesktop={isDesktop}
-      />
-      <Footer 
-        isDesktop={isDesktop}
-      />
+    <div className="mainContainer">
+      <Head>
+        <title>easybank landing page</title>
+        <meta name='description' content='recreated frontend masters challenge for my portfolio'/>
+      </Head>
+      <Header isDesktop={isDesktop} />
+      <Intro isDesktop={isDesktop} />
+      <Main isDesktop={isDesktop} />
+      <Articles isDesktop={isDesktop} />
+      <Footer isDesktop={isDesktop} />
     </div>
   )
 }

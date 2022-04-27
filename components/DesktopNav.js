@@ -24,31 +24,39 @@ export default function DesktopNav() {
     }
   }
 
-
-
   return (
     <div className="desktopNavContainer">
       <nav className="desktopNav">
-        <a 
-        onClick={handleClick}
-        className={`${navItem == 'Home' ? 'navHome' : ''}`}
-        >Home</a>
-        <a 
-        onClick={handleClick}
-        className={`${navItem == 'About' ? 'navAbout' : ''}`}
-        >About</a>
-        <a 
-        onClick={handleClick}
-        className={`${navItem == 'Contact' ? 'navContact' : ''}`}
-        >Contact</a>
-        <a 
-        onClick={handleClick}
-        className={`${navItem == 'Blog' ? 'navBlog' : ''}`}
-        >Blog</a>
-        <a 
-        onClick={handleClick}
-        className={`${navItem == 'Careers' ? 'navCareers' : ''}`}
-        >Careers</a>
+        <a
+          onClick={handleClick}
+          className={`${navItem == 'Home' ? 'navHome' : ''}`}
+        >
+          Home
+        </a>
+        <a
+          onClick={handleClick}
+          className={`${navItem == 'About' ? 'navAbout' : ''}`}
+        >
+          About
+        </a>
+        <a
+          onClick={handleClick}
+          className={`${navItem == 'Contact' ? 'navContact' : ''}`}
+        >
+          Contact
+        </a>
+        <a
+          onClick={handleClick}
+          className={`${navItem == 'Blog' ? 'navBlog' : ''}`}
+        >
+          Blog
+        </a>
+        <a
+          onClick={handleClick}
+          className={`${navItem == 'Careers' ? 'navCareers' : ''}`}
+        >
+          Careers
+        </a>
       </nav>
       <button>Request Invite</button>
     </div>

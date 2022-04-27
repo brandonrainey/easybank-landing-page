@@ -3,32 +3,31 @@ import Image from 'next/image'
 import MobileNav from './MobileNav'
 import DesktopNav from './DesktopNav'
 
-
-
 export default function Header({ isDesktop }) {
-
-const [open, setOpen] = useState(false)
-
-
+  const [open, setOpen] = useState(false)
 
   return (
-    <div className='header'>
-        <img 
-          src='/logo.svg'
-          width={`173.75`}
-          height={`25`}
-          className='logo'
-        />
-        {isDesktop ? <DesktopNav /> : (<img
+    <div className="header">
+      <img
+        src="/logo.svg"
+        width={`173.75`}
+        height={`25`}
+        className="logo"
+        alt="easybank logo"
+      />
+      {isDesktop ? (
+        <DesktopNav />
+      ) : (
+        <img
           src={`${open ? '/icon-close.svg' : '/icon-hamburger.svg'}`}
           height={`${open ? '27' : '15'}`}
           width={`${open ? '25' : '32.7'}`}
-          className='hamburgerIcon'
+          className="hamburgerIcon"
           onClick={() => setOpen(!open)}
-        />)}
-        
-        
-        {open ? <MobileNav /> : null}
+        />
+      )}
+
+      {open ? <MobileNav /> : null}
     </div>
   )
 }
