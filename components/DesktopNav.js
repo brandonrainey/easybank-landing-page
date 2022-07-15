@@ -63,7 +63,7 @@ export default function DesktopNav() {
           Careers
         </a>
       </nav>
-      <button>Request Invite</button>
+      <button className='requestButton'>Request Invite</button>
     </div>
   )
 }

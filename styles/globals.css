@@ -304,6 +304,9 @@ h3 {
   flex-direction: column;
 }
 
+.requestButton {
+  cursor: pointer;
+}
 @media (min-width: 480px) {
   
   .logo {
@@ -461,6 +464,3 @@ h3 {
     
 }
 }
-
-
-

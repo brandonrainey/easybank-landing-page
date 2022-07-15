@@ -8,7 +8,7 @@ export default function Header({ isDesktop }) {
 
   return (
     <div className="header">
-      <img
+      <Image
         src="/logo.svg"
         width={`173.75`}
         height={`25`}

@@ -74,7 +74,7 @@ export default function Footer() {
       </div>
 
       <div className="footerSectionThree">
-        <button>Request Invite</button>
+        <button className='requestButton'>Request Invite</button>
         <p>© Easybank. All Rights Reserved</p>
       </div>
     </div>
