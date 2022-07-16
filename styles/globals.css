@@ -307,6 +307,14 @@ h3 {
 .requestButton {
   cursor: pointer;
 }
+
+.linkSectionOne a {
+  cursor: pointer;
+}
+
+.linkSectionTwo a {
+  cursor: pointer;
+}
 @media (min-width: 480px) {
   
   .logo {
